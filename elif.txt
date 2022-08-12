@@ -1,0 +1,18 @@
+echo Enter name 1:
+read name1
+echo Enter name 2:
+read name2
+echo Enter score 1:
+read score1
+echo Enter score 2:
+read score2
+if [ $score1 -gt $score2 ]
+then
+echo $name1 had a better score than $name2
+elif [ $score1 -lt $score2 ]
+then
+echo $name2 had a better score than $name1
+else
+echo $name1 and $name2 both had equal scores
+echo thank you. 
+fi

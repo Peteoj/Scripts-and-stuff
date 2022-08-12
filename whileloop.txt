@@ -1,0 +1,7 @@
+n=90
+while [ $n -le 100 ]
+do
+echo $n
+(( n++ ))
+done
+echo script is over

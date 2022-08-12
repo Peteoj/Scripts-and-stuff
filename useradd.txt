@@ -1,0 +1,10 @@
+#!/bin/bash
+#this script is used to add users in your linux server
+echo Enter your new username:
+read user
+sudo useradd $user
+echo New user created!
+sudo passwd $user 
+echo Thank you
+id
+whoami

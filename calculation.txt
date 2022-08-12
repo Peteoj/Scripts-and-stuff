@@ -1,0 +1,8 @@
+echo Enter Original Price for house:
+read price
+echo Enter Cost for maintenance:
+read main
+echo Enter Cost for taxes:
+read tax
+echo The current cost for your home should be
+expr $price + $main + $tax
