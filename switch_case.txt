@@ -1,6 +1,6 @@
-echo enter your name:
+echo "Enter your name:"
 read name
-echo enter your grade:
+echo "Enter your grade (10,20-100):"
 read grade
 case $grade in
         100) echo $name passed great ;;
@@ -12,4 +12,5 @@ case $grade in
         30) echo $name failed badly ;;
         20) echo $name failed horribly ;;
         10) echo $name failed terribly ;;
+        *) echo $name This number is out of range ;;
 esac
