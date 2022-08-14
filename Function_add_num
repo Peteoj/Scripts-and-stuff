@@ -1,0 +1,10 @@
+func(){
+echo Enter number one:
+read num1
+echo Enter number two:
+read num2
+echo The sum of both is
+expr $num1 + $num2
+}
+Adding two numbers
+func
