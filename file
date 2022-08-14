@@ -1,0 +1,10 @@
+echo "1 = start"
+echo "2 = stop"
+echo "3 = restart"
+echo "Choose option for server:"
+read opt
+case $opt in
+1) echo "You chose $opt, server will start now" ;;
+2) echo "You chose $opt, server will stop now" `sudo shutdown` ;;
+3) echo "You chose $opt, server will restart now" `sudo reboot`;;
+esac
