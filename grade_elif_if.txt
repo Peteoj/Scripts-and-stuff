@@ -1,0 +1,22 @@
+echo Enter the students name:
+read name
+echo Enter the students grade:
+read grade
+if [ $grade -le 59 ]
+then
+echo $name got an F
+elif [ $grade -le 69 ]
+then
+echo $name got a D
+elif [ $grade -le 79 ]
+then
+echo $name got a C
+elif [ $grade -le 89 ]
+then
+echo $name got a B
+elif [ $grade -le 100 ]
+then
+echo $name got an A
+else
+echo invalid response, Please try again
+fi
