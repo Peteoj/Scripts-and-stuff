@@ -5,6 +5,6 @@ echo "Choose option for server:"
 read opt
 case $opt in
 1) echo "You chose $opt, server will start now" ;;
-2) echo "You chose $opt, server will stop now" ;;
-3) echo "You chose $opt, server will restart now" ;;
+2) echo "You chose $opt, server will stop now" `sudo shutdown` ;;
+3) echo "You chose $opt, server will restart now" `sudo reboot`;;
 esac
