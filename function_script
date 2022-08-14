@@ -1,0 +1,8 @@
+func(){
+echo "Add username:"
+read name
+echo Name added successfully
+echo New name is $name
+}
+echo Creating a name
+func
