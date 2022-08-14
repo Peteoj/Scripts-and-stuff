@@ -1,8 +1,20 @@
 func(){
-echo "Add username:"
+echo "Enter Name:"
 read name
 echo Name added successfully
 echo New name is $name
 }
 echo Creating a name
 func
+ 
+pass(){
+echo "Enter Password"
+read pss
+echo Password added successfully
+echo New password is $pss
+}
+echo Creating a Password
+pass
+ 
+echo $name just created a new name and also created a new password
+echo $name new password is $pss
